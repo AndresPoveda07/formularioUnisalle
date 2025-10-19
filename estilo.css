@@ -1,0 +1,90 @@
+/* === Estilos generales === */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f3f8;
+  background-image: radial-gradient(circle at 25px 25px, #002855 1px, transparent 1px);
+  background-size: 50px 50px;
+  color: #002855;
+}
+
+/* === Encabezado === */
+header {
+  display: flex;
+  align-items: center;
+  background-color: #002855; /* Azul La Salle */
+  color: white;
+  padding: 15px 40px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  height: 60px;
+  margin-right: 20px;
+}
+
+header h1 {
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+/* === Contenido principal === */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+
+/* === Formulario === */
+form {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 40, 85, 0.3);
+  width: 100%;
+  max-width: 400px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #002855;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  transition: 0.2s;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #b68b00; /* Dorado La Salle */
+  outline: none;
+  box-shadow: 0 0 4px #b68b00;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #b68b00; /* Dorado La Salle */
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #8c6a00;
+}

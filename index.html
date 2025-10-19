@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de contacto U La Salle</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <img src="img/logo_lasalle.png" alt="Logo Universidad de La Salle" class="logo">
+    <h1>Formulario de Contacto U La Salle</h1>
+  </header>
+
+  <main>
+    <form action="contacto.php" method="POST">
+      <label>Nombre:</label>
+      <input type="text" name="nombre" required>
+
+      <label>Correo:</label>
+      <input type="email" name="correo" required>
+
+      <label>Mensaje:</label>
+      <textarea name="mensaje" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+</body>
+</html>
